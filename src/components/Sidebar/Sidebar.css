@@ -1,0 +1,148 @@
+.container__sidebar{
+    width: 350px;
+    height: 100%;
+    background-color: var(--blue_dark);
+    position: relative;
+}
+
+.siderbar__body {
+    padding: 20px;
+    color: white;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.material-icons.md-light { 
+    color: rgba(255, 255, 255, 1); 
+    
+}
+.header__slider{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+.slider__one{
+    background-color: white;
+    width: 15px;
+    height: 5px;
+    border-radius: 10px;
+}
+.slider__two{
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: white;
+    opacity: 0.5;
+}
+.slider__three{
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: white;
+    opacity: 0.5;
+}
+
+.header__right {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.range__body{
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.3);
+    width: 25px;
+    height: 7px;
+    border-radius: 10px;
+}
+.range__dot{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: white;
+    top: -4px;
+    left: 0;
+}
+.temp{
+    font-size: 10px;
+    color: white;
+}
+.wheather__body{
+    margin: 40px 0;
+    /* padding-top: 10px; */
+}
+#send__icons{
+    font-size: 15px;
+    rotate: -30deg;
+}
+
+.wheather__city{
+    font-size: 14px;
+    font-weight: 400;
+}
+.wheather__box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+.wheather__header{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.wheather__right{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+#sunset_icons{
+    font-size: 15px;
+}
+
+.wheather__time{
+    font-size: 12px;
+}
+.wheather__date{
+    font-size: 12px;
+    opacity: 0.9;
+}
+
+.temp__body{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#arrows{
+    font-size: 20px;
+    color: white;
+    opacity: 0.5;
+}
+.temp__num{
+    font-size: 90px;
+    font-weight: 500;
+    color: white;
+    position: relative;
+}
+.deg{
+    position: absolute;
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+    top: 10px;
+    right: -20px;
+}
+.poster__body{
+    position: absolute;
+    width: 102%;
+    height: 420px;
+    /* bottom: 8px; */
+}
+.poster__img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

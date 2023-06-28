@@ -1,0 +1,71 @@
+.card{
+    background-color: white;
+    padding: 20px 20px;
+    width: 300px;
+    border-radius: 30px;
+}
+.card__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card__header__right{
+    background-color: var(--blue_dark);
+    color : white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border-radius: 10px;
+}
+.card__title{
+text-align: center;
+
+}
+.card__para{
+    font-weight: 400;
+}
+
+.card__heading{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    gap: 5px;
+}
+.card__ranges__uv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-top: 10px;
+}
+.card__ranges__title{
+    font-size: 14px;
+    color: gray;
+}
+.card__range{
+    width: 40px;
+    height: 8px;
+    border-radius: 10px;
+    background-color: rgba(0,0,0,0.1);
+    position: relative;
+}
+.uv__fill__good{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    border-radius: 10px;
+    background-color: var(--blue_dark);
+    width: 100%;
+}
+.uv__fill__normal{
+    width: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    border-radius: 10px;
+    background-color: var(--blue_dark);
+}
+
